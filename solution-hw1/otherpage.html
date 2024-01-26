@@ -1,15 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
   <meta charset="UTF-8">
-  <title>Page Title</title>
+  <head>
+    <title>Product Detail HW1</title>
+
+    <!-- linked the css file -->
+    <link rel="stylesheet" href="css/otherpage.css"> 
+
+    <!-- made the icon link-able -->
+    <a href="index.html"> 
+      <img class="icon" src="/Users/ahanabanerjee/Documents/GitHub/pui-homework-template/assets/logo/logo-01.svg"/>
+    </a>
+    </head>
+  
+  <hr>
+  
+  <!-- nav bar with associated links -->
+  <div class="nav">
+    <a id="menuproducts" href="index.html">PRODUCTS</a>
+    <br>
+    <a id="menucart" href="lastpage.html">CART</a>
+    <br>
+    <br>
+  </div>
+
   
   <body>
+    <p id="intro">Original cinnamon roll</p>
+    <br>
+    <img class="origpic" src="/Users/ahanabanerjee/Documents/GitHub/pui-homework-template/assets/products/original-cinnamon-roll.jpg"/>
+    <br>
+    <figcaption>Customize our delicious, hand-making cinnamons to your liking! </figcaption>
+    
 
-    <h1>Other Page</h1>
+    <!-- both drop-downs are in a div class for future formatting -->
+    <br>
+    <div class="drop-downs">
+    <label>Glazing:</label>
+    <br>
+    <select name="Glazing">
+      <!-- all options for glazing -->
+      <option>Keep original</option>
+      <option>Sugar milk</option>
+      <option>Vanilla milk</option>
+      <option>Double chocolate</option>
+    </select>
+    <br>
+    <br>
+    <label>Pack size:</label>
+    <br>
+    <select name="size">
+      <!-- all options for sizes -->
+      <option>1</option>
+      <option>3</option>
+      <option>6</option>
+      <option>12</option>
+    </select>
+  </div>
 
-    <p>
-        Hello!
-    </p>
+  <br>
+
+  <div id="total">
+    <p>$2.49
+    <button class="cart">Add to Cart</button></p> 
+  </div>
+
 
   </body>
+
+
 </html>

@@ -1,0 +1,52 @@
+.icon{
+    margin-right:0px;
+    margin-right:0px;
+    width: 400px;
+}
+
+a{
+    text-align:center;
+    text-decoration:none;
+    color:#000000;
+}
+
+.nav{
+    text-align:center;
+}
+
+#menuproducts{
+    font-weight:bold;
+    background-color:#FFFF00;
+}
+
+#intro{
+    text-align:center;
+}
+
+.origpic{
+    display:block;
+    width: 400px;
+    height: 400px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 3px solid #000000;
+}
+
+figcaption{
+    text-align:center;
+}
+
+.drop-downs{
+    text-align:center;
+}
+
+#total{
+    text-align:center;
+    font-weight:bold;
+}
+
+.cart{
+    background-color:#FFFF00;
+    font-weight:bold;
+}
+

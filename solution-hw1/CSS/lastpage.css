@@ -1,0 +1,51 @@
+.icon{
+    margin-right:0px;
+    margin-right:0px;
+    width: 400px;
+}
+
+a{
+    text-align:center;
+    text-decoration:none;
+    color:#000000;
+}
+
+.nav{
+    text-align:center;
+}
+
+#menucart{
+    font-weight:bold;
+    background-color:#FFFF00;
+}
+
+#intro{
+    text-align:center;
+}
+
+.pic{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 3px solid #000000;
+}
+
+.cart{
+    text-align:center;
+}
+
+.remove{
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+.total{
+    text-align:center;
+}
+
+.checkout{
+    background-color:#FFFF00;
+    font-weight:bold;
+}
