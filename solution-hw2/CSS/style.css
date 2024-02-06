@@ -38,6 +38,10 @@
     width:100%;
 }
 
+.cartNotif{
+    display:flex;
+    flex-wrap:nowrap;
+}
 
 a{
     text-decoration:none;

@@ -54,6 +54,11 @@ a{
     background-color:#FFFF00;
 }
 
+.cartNotif{
+    display:flex;
+    flex-wrap:nowrap;
+}
+
 #menucart{
     display:flex;
     gap:5px;
