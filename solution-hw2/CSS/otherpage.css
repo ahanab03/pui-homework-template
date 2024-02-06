@@ -59,7 +59,7 @@ a{
     flex-wrap:nowrap;
 }
 
-#menucart{
+.menucart{
     display:flex;
     gap:5px;
     justify-content:flex-start;

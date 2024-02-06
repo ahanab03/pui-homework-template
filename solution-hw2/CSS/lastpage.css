@@ -54,7 +54,7 @@ a{
     text-align:right;
 }
 
-#menucart{
+.menucart{
     display:flex;
     gap:5px;
     justify-content:flex-start;

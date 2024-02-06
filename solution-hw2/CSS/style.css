@@ -58,7 +58,7 @@ a{
     background-color:#FFFF00;
 }
 
-#menucart{
+.menucart{
     display:flex;
     gap:5px;
     justify-content:flex-start;
