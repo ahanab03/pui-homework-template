@@ -3,46 +3,70 @@
   <meta charset="UTF-8">
   <head>
     <title>Product Gallery HW 2</title>
-
+    <!-- reference the CSS file -->
     <link rel="stylesheet" href="CSS/style.css"> 
-  </head>
 
-  <body>
+    <!-- header information -->
     <div class="header">
+
+      <!-- 3 entities in the column flexbox -->
       <div class="colFlex">
+
+        <!-- 2 entities in the row flexbox -->
         <div class="rowFlex">
+
+          <!-- navigation  -->
           <div id="menuproducts">
             <a href="index.html">PRODUCTS</a>
           </div>
-          <div class="menucart">
-            <a id="cartText" href="lastpage.html">CART</a>
+    
+          <div id="menucart">
+            <a href="lastpage.html">CART</a>
+            <!-- attached notification for cart -->
             <div class="oval"></div>
           </div>
         </div>
-      <div class="line"></div>
+      
+        <!-- horizontal line creation -->
+        <div class="line"></div>
+
+        <!-- text on the right hand side of the header -->
         <div class="rightAlignCol">
           <p id="intro">Our hand-made cinnamon rolls</p>
         </div>
       </div>
-          <a href="index.html"> 
-            <img class="icon" src="../assets/logo/logo-01.svg"/>
-          </a>
-    </div>
 
+    <!-- icon only belongs in the header div -->
+      <a href="index.html"> 
+      <img class="icon" src="../assets/logo/logo-01.svg"/>
+      </a>
+    </div>
+  </head>
+
+
+  <!-- start of body -->
+  <body>
     <br>
     <br>
     <br>
-  
+
+  <!-- buns class for every 3 cards -->
   <div class="buns">
+
     <div class="card">
+      <!-- first picture -->
       <a href="otherpage.html"> 
       <img class="pic" src="../assets/products/original-cinnamon-roll.jpg"/>
       </a>      
-        <h1>
-          <a href="otherpage.html">
-            Original cinnamon roll
-          </a>
-        </h1>
+
+      <!-- title of the picture -->
+      <h1>
+        <a href="otherpage.html">
+          Original cinnamon roll
+        </a>
+      </h1>
+
+      <!-- price number -->
         <p>$2.49</p>
     </div>
 
@@ -69,13 +93,14 @@
           Raisin cinnamon roll
         </a>
       </h1>
-      <p>2.99</p>
+      <p>$2.99</p>
     </div>
   </div>
 
   <br> 
   <br> 
 
+  <!-- another buns class for the next three cards -->
   <div class="buns">
     <!-- repeats -->
     <div class="card">
@@ -87,7 +112,7 @@
         Walnut cinnamon roll
       </a>
     </h1>
-    <p>3.49</p>
+    <p>$3.49</p>
     </div>
 
     <!-- repeats -->
@@ -100,7 +125,7 @@
         Double-chocolate cinnamon roll
       </a>
     </h1>
-    <p>3.99</p>
+    <p>$3.99</p>
     </div>
 
 
@@ -114,7 +139,7 @@
         Strawberry cinnamon roll
       </a>
     </h1>
-    <p>3.99</p>
+    <p>$3.99</p>
     </div>
     
     </div>

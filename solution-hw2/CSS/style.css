@@ -2,7 +2,7 @@
     display:flex;
     flex-wrap:nowrap; 
     align-items:center;
-    flex-direction: row-reverse;
+    flex-direction:row-reverse;
 }
 
 .rowFlex{
@@ -10,8 +10,8 @@
     flex-direction:row;
     justify-content:flex-end;
     gap:50px;
-    font-size: 30px;
-    padding: 30px;
+    font-size:30px;
+    padding:30px;
 }
 
 .colFlex{
@@ -25,12 +25,11 @@
 
 .rightAlignCol{
     align-self:flex-start;
-    align-content: flex-end;
+    align-content:flex-end;
 }
 
 .icon{
-    width: 400px;
-    
+    width:400px;
 }
 
 .line{
@@ -55,12 +54,9 @@ a{
     background-color:#FFFF00;
 }
 
-.menucart{
+#menucart{
     display:flex;
     gap:5px;
-}
-
-#cartText{
     justify-content:flex-start;
 }
 
@@ -79,6 +75,7 @@ a{
 
 .oval::before{
   content: '2';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #intro{
@@ -111,7 +108,7 @@ h1:hover{
 
 .card{
     display:block;
-    padding: 10px;
+    padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 

@@ -2,7 +2,7 @@
     display:flex;
     flex-wrap:nowrap; 
     align-items:center;
-    flex-direction: row-reverse;
+    flex-direction:row-reverse;
 }
 
 .rowFlex{
@@ -10,8 +10,8 @@
     flex-direction:row;
     justify-content:flex-end;
     gap:50px;
-    font-size: 30px;
-    padding: 30px;
+    font-size:30px;
+    padding:30px;
 }
 
 .colFlex{
@@ -25,12 +25,11 @@
 
 .rightAlignCol{
     align-self:flex-start;
-    align-content: flex-end;
+    align-content:flex-end;
 }
 
 .icon{
-    width: 400px;
-    
+    width:400px;
 }
 
 .line{
@@ -55,12 +54,9 @@ a{
     background-color:#FFFF00;
 }
 
-.menucart{
+#menucart{
     display:flex;
     gap:5px;
-}
-
-#cartText{
     justify-content:flex-start;
 }
 
@@ -79,6 +75,7 @@ a{
 
 .oval::before{
   content: '2';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #intro{
@@ -87,7 +84,6 @@ a{
     font-size: 30px;
     align-items:flex-end;
     padding: 30px;
-
 }
 
 .origpic{
@@ -103,13 +99,14 @@ a{
     align-content:center;
     flex-direction: row-reverse;
     justify-content:center;
+    width:900px; 
+    margin:auto;
 }
 
 .mainCols{
     display:flex;
     flex-direction:column;
-    justify-content:center;
-    margin-right:350px;
+    gap:145px;
 }
 
 figcaption{
@@ -118,11 +115,12 @@ figcaption{
     text-align:left;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    width:200px;
 }
 
 .selector{
     width:190px;
-    height: 30px;
+    height:30px;
 }
 
 .drop-downs{
@@ -134,7 +132,6 @@ figcaption{
     align-content: flex-end;
     padding-left:10px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .total{
@@ -154,6 +151,7 @@ figcaption{
 #price{
     text-align:left;
     font-weight:bold;
+    padding:10px;
 }
 
 .cart{
