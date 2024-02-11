@@ -1,0 +1,192 @@
+.header{
+    display:flex;
+    flex-wrap:nowrap; 
+    align-items:center;
+    flex-direction:row-reverse;
+}
+
+.rowFlex{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    gap:50px;
+    font-size:30px;
+    padding:30px;
+}
+
+.colFlex{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction:column;
+    flex-grow:1;
+    justify-content:flex-start;
+    align-items:flex-end;
+}
+
+.rightAlignCol{
+    align-self:flex-start;
+    align-content:flex-end;
+}
+
+.icon{
+    width:400px;
+}
+
+.cartNotif{
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.line{
+    height: 5px;
+    background-color: black;
+    width:100%;
+}
+
+
+a{
+    text-decoration:none;
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    text-align:right;
+}
+
+.menucart{
+    display:flex;
+    gap:5px;
+    justify-content:flex-start;
+    font-weight:bold;
+    background-color:#FFFF00;
+    flex-wrap:nowrap;
+}
+
+.oval{
+    justify-content:flex-end;
+    width: 18px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.oval::before{
+  content: '2';
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#intro{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    align-items:flex-end;
+    padding: 30px;
+}
+
+.oval{
+    justify-content:flex-end;
+    width: 18px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.oval::before{
+    content: '2';
+  }
+  
+#intro{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    align-items:flex-end;
+    padding: 30px;
+  }
+
+.pic{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #000000;
+}
+
+.mainPage{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction:column;
+    justify-content:flex-end;
+    margin-left:400px;
+    margin-right:100px;
+}
+
+.leftCol{
+    display:flex;
+    flex-direction:column;
+    align-content:flex-start;
+    
+}
+.middleCol{
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+}
+
+.lastCol{
+    display:flex;
+    flex-direction:column;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:flex-end;
+    text-align:right;
+    padding-top:15px;
+}
+
+.picAndWriting{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+}
+
+.descriptions{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    flex-grow:1;
+}
+
+.remove{
+    font-weight:bold;
+    text-decoration:underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:62px;
+}
+
+.totalPrice{
+    display:flex;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 5px solid #000;
+    justify-content:space-between;
+}
+
+.checkout{
+    background-color:#FFFF00;
+    font-weight:bold;
+    margin-left:570px;
+    height:40px;
+}

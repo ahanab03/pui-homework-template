@@ -1,0 +1,128 @@
+.header{
+    display:flex;
+    flex-wrap:nowrap; 
+    align-items:center;
+    flex-direction:row-reverse;
+}
+
+.rowFlex{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    gap:50px;
+    font-size:30px;
+    padding:30px;
+}
+
+.colFlex{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction:column;
+    flex-grow:1;
+    justify-content:flex-start;
+    align-items:flex-end;
+}
+
+.rightAlignCol{
+    align-self:flex-start;
+    align-content:flex-end;
+}
+
+.icon{
+    width:400px;
+}
+
+.line{
+    height: 5px;
+    background-color: black;
+    width:100%;
+}
+
+.cartNotif{
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+a{
+    text-decoration:none;
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    text-align:right;
+}
+
+#menuproducts{
+    font-weight:bold;
+    background-color:#FFFF00;
+}
+
+.menucart{
+    display:flex;
+    gap:5px;
+    justify-content:flex-start;
+}
+
+.oval{
+    justify-content:flex-end;
+    width: 18px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.oval::before{
+  content: '2';
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#intro{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    align-items:flex-end;
+    padding: 30px;
+}
+
+
+h1{
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight:400;
+}
+
+h1:hover{
+    font-weight:bold;
+}
+
+.pic{
+    display:block;
+    height: 285px;
+    width: 285px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 3px solid #000000;
+}
+
+.card{
+    display:block;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:hover{
+    background-color: yellow;
+}
+
+
+.buns{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+}

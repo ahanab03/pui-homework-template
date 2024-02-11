@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <head>
+    <title>Shopping Cart HW2</title>
+    <!-- linked the css file -->
+    <link rel="stylesheet" href="CSS/lastpage.css"> 
+    <!-- header information -->
+    <div class="header">
+
+      <!-- 3 entities in the column flexbox -->
+      <div class="colFlex">
+
+        <!-- 2 entities in the row flexbox -->
+        <div class="rowFlex">
+
+          <!-- navigation  -->
+          <div id="menuproducts">
+            <a href="index.html">PRODUCTS</a>
+          </div>
+    
+          <div class="cartNotif">
+            <a class="menucart" href="lastpage.html">CART</a>
+            <!-- attached notification for cart -->
+            <div class="oval"></div>
+          </div>
+        </div>
+      
+        <!-- horizontal line creation -->
+        <div class="line"></div>
+
+        <!-- text on the right hand side of the header -->
+        <div class="rightAlignCol">
+          <p id="intro">Our hand-made cinnamon rolls</p>
+        </div>
+      </div>
+
+    <!-- icon only belongs in the header div -->
+      <a href="index.html"> 
+      <img class="icon" src="../assets/logo/logo-01.svg"/>
+      </a>
+    </div>
+  </head>
+
+  <!-- start of body -->
+  <body>
+
+    <!-- same cart and pic class used for both buns for easy css formatting -->
+    <div class="mainPage"> 
+      <!-- includes the picture and content -->
+
+      <div class="picAndWriting">
+        <!-- image and remove -->
+
+        <div class="leftCol">
+          <img class="pic" src="../assets/products/original-cinnamon-roll.jpg"/>
+          <p class="remove">Remove</p>
+        </div>
+
+        <!-- info and prices -->
+        <div class="descriptions">
+          <div class="middleCol">
+            <p>Original Cinnamon Roll</p>
+            <p>Glazing: Keep Original</p>
+            <p>Pack Size: 1</p>
+          </div>
+        </div>
+        <!-- prices -->
+        <div class="lastCol">
+          <p class="price">$2.49</p>
+        </div>          
+      </div>
+
+      <!-- repeat for second row -->
+      <div class="picAndWriting">
+        <div class="leftCol">
+          <img class="pic" src="../assets/products/double-chocolate-cinnamon-roll.jpg"/>
+          <p class="remove">Remove</p>
+        </div>
+        <div class="descriptions">
+          <div class="middleCol">
+            <p>Double Chocolate Cinnamon Roll</p>
+            <p>Glazing: Sugar Milk</p>
+            <p>Pack Size: 6</p>
+          </div>
+        </div>
+        <div class="lastCol">
+          <p class="price">$27.49</p>
+        </div>
+      </div>
+
+      <!-- divided the total in two parts for flex box sake -->
+      <div class="totalPrice">
+        <p class="total">Total: </p>
+        <p class="numberPrice">$29.94</p>
+      </div>
+      <button class="checkout">Checkout</button>
+    </div>
+  </body>
+</html>
