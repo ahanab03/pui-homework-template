@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <head>
+    <title>Product Detail HW2</title>
+    <link rel="stylesheet" href="CSS/otherpage.css"> 
+    <script src="js/rollsData.js" defer></script>
+    <script src="js/otherpg.js" defer></script>
+  </head>
+
+  <!-- start of body -->
+  <body>
+        <!-- header information -->
+        <div class="header">
+
+          <!-- 3 entities in the column flexbox -->
+          <div class="colFlex">
+    
+            <!-- 2 entities in the row flexbox -->
+            <div class="rowFlex">
+    
+              <!-- navigation  -->
+              <div id="menuproducts">
+                <a href="index.html">PRODUCTS</a>
+              </div>
+        
+              <div class="cartNotif">
+                <a class="menucart" href="lastpage.html">CART</a>
+                <!-- attached notification for cart -->
+                <div class="oval"></div>
+              </div>
+            </div>
+          
+            <!-- horizontal line creation -->
+            <div class="line"></div>
+    
+            <!-- text on the right hand side of the header -->
+            <div class="rightAlignCol">
+              <p id="intro">Our hand-made cinnamon rolls</p>
+            </div>
+          </div>
+    
+        <!-- icon only belongs in the header div -->
+          <a href="index.html"> 
+          <img class="icon" src="../assets/logo/logo-01.svg"/>
+          </a>
+        </div>
+    <br>
+    <br>
+    <br>
+
+    <!-- including picture and content -->
+    <div class="mainPage">
+
+      <!-- only including the content -->
+      <div class="mainCols">
+
+      <!-- blurb -->
+      <figcaption>Customize our delicious, hand-making cinnamons to your liking! </figcaption>
+
+      <!-- drop down menus -->
+      <div class="drop-downs">
+
+        <!-- glazing drop down -->
+        <label>Glazing:</label>
+        <br>
+        <!-- populating the line -->
+        <select id="glazingOptions" onchange="glazingChange()">
+        </select>
+
+        <br>
+
+        <!-- pack size drop down -->
+        <label>Pack size:</label>
+        <br>
+        <!-- populating the line -->
+        <select id="packageOptions" onchange="packSizeChange()">
+        </select>
+      </div>
+
+      <!-- divided into two parts for flex box sake -->
+      <div class="total">
+        <p id="price">$2.49</p>
+        <p><button class="cart">Add to Cart</button></p> 
+      </div>
+    </div>
+
+    <img class="origpic" src="../assets/products/original-cinnamon-roll.jpg"/>
+  </div>    
+  </body>
+
+</html>
