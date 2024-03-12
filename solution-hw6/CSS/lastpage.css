@@ -1,0 +1,186 @@
+.header {
+    /* Header styles */
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.rowFlex {
+    /* Row flex styles */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 50px;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.colFlex {
+    /* Column flex styles */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.rightAlignCol {
+    /* Right-aligned column styles */
+    align-self: flex-start;
+    align-content: flex-end;
+}
+
+.icon {
+    /* Icon styles */
+    width: 400px;
+}
+
+.cartNotif {
+    /* Cart notification styles */
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.line {
+    /* Horizontal line styles */
+    height: 5px;
+    background-color: black;
+    width: 100%;
+
+}
+
+a {
+    /* Anchor styles */
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menucart {
+    /* Cart menu styles */
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
+    font-weight: bold;
+    background-color: #ffff00;
+    flex-wrap: nowrap;
+}
+
+.oval {
+    /* Notification oval styles */
+    justify-content: flex-end;
+    width: 18px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.oval::before {
+    /* Oval content styles */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#intro {
+    /* Intro paragraph styles */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    align-items: flex-end;
+    padding: 30px;
+}
+
+.pic {
+    /* Image styles */
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #000000;
+}
+
+.mainPage {
+    /* Main page styles */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 400px;
+    margin-right: 100px;
+}
+
+.leftCol {
+    /* Left column styles */
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.middleCol {
+    /* Middle column styles */
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.lastCol {
+    /* Last column styles */
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: flex-end;
+    text-align: right;
+    padding-top: 15px;
+}
+
+.picAndWriting {
+    /* Picture and writing styles */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.descriptions {
+    /* Description styles */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.remove {
+    /* Remove link styles */
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price {
+    /* Price styles */
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 62px;      
+}
+
+.totalPrice {
+    /* Total price styles */
+    display: flex;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 5px solid #000;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.checkout {
+    /* Checkout button styles */
+    background-color: #ffff00;
+    font-weight: bold;
+    margin-left: 570px;
+    height: 40px;
+}

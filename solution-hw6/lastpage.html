@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Cart HW2</title>
+
+  <!-- citing correct links and pages  -->
+  <link rel="stylesheet" href="CSS/lastpage.css">
+  <script src="js/rollsData.js" defer></script>
+  <script src="js/lastpg.js" defer></script>
+</head>
+<body>
+  <!-- creation of header -->
+  <div class="header">
+    <div class="colFlex">
+      <div class="rowFlex">
+        <!-- creating all links -->
+        <div id="menuproducts">
+          <a href="index.html">PRODUCTS</a>
+        </div>
+        <div class="cartNotif">
+          <a class="menucart" href="lastpage.html">CART</a>
+          <div class="oval" id="cartItemCount">0</div>
+        </div>            
+      </div>
+      <!-- creating image and adjacent line -->
+      <div class="line"></div>
+      <div class="rightAlignCol">
+        <p id="intro">Our hand-made cinnamon rolls</p>
+      </div>
+    </div>
+    <a href="index.html"> 
+      <img class="icon" src="../assets/logo/logo-01.svg"/>
+    </a>
+  </div>
+
+
+  <div class="mainPage">
+    <div id="cartItems">
+      <!-- Cart items will be dynamically inserted here -->
+    </div>
+    
+    
+    <div class="totalPrice">
+      <div class="total">
+        Total:
+      </div>
+
+      <div id="totalPrice" class="numberPrice">$0.00</div>
+     
+    </div>
+    <br>
+    <button class="checkout">Checkout</button>
+  </div>
+</body>
+</html>

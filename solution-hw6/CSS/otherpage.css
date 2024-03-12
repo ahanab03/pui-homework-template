@@ -66,11 +66,11 @@ a{
 }
 
 .oval{
-    justify-content: flex-end;
+    justify-content:flex-end;
     width: 18px;
     height: 25px;
     border-radius: 50%;
-    background-color: red;
+    background-color: red; 
     display: flex;
     align-items: center;
     justify-content: center;
