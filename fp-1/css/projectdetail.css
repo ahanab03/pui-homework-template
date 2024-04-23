@@ -1,0 +1,524 @@
+/* General Styles */
+body {
+    background-color: #1E1E1E;
+    color: white;
+    font-family: 'Istok Web', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1E1E1E;
+}
+
+.header-left img {
+    width: 50px;
+}
+
+.header-middle nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-middle nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header-middle nav ul li a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.header-middle nav ul li a.active {
+    border-bottom-color: #93ABF6;
+    color: #93ABF6;
+}
+
+.header-middle nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.header-right {
+    text-align: right; /* Align text to the right */
+}
+
+.header-right p {
+    font-size: 30px;
+    margin-bottom: 20px;
+    max-height: 3em; /* Limit to three lines */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Add ellipsis (...) for truncated text */
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.header-right a[href="https://www.linkedin.com/in/ahanaabanerjee/"] img {
+    width: 30px; /* Adjust the width as needed */
+}
+
+/* Main Content Section */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the content */
+}
+
+.project-details {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Make the project details section full width */
+}
+
+.project-banner img{
+    max-width: 50%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.title-description {
+    color: white;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.title-description h1 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.title-description .description {
+    color: white;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.view-project-btn {
+    background-color: #93ABF6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.view-project-btn:hover {
+    background-color: #7f96d8; /* Change button hover color as needed */
+}
+
+.project-section {
+    display: flex;
+    justify-content: space-between; /* Evenly distribute items */
+    margin-top: 20px; /* Add some top margin */
+    width: 100%; /* Make the project section full width */
+}
+
+.project-section div {
+    flex: 1; /* Make each section take up equal space */
+    text-align: center; /* Center the text */
+}
+
+.project-section h3 {
+    margin-bottom: 5px; /* Add some bottom margin to headings */
+}
+
+.horizontal-line {
+    width: 90%; /* Full width of the screen */
+    border: none; /* No border */
+    height: 1px; /* Height of the line */
+    background-color: white; /* Color of the line */
+}
+
+.process-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+}
+
+.skip-section {
+    flex: 1;
+    padding: 20px;
+    margin-right: 10px; /* Add margin to create space between sections */
+}
+
+.skip-section h2 {
+    font-size: 24px;
+}
+
+.skip-list ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skip-list li {
+    margin-bottom: 10px;
+}
+
+.skip-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.uno-card-section {
+    padding: 20px 10px; /* Add some padding */
+    display: flex;
+    align-items: center; /* Center content vertically */
+}
+
+.uno-card-section img {
+    width: 30%;
+    padding-left: 100px;
+}
+
+.problem-space-section {
+    padding: 20px; /* Adjust padding as needed */
+    margin-left: 10px; /* Add margin to create space between sections */
+    flex: 1;
+    padding: 20px;
+    margin-right: 10px; /* Add margin to create space between sections */
+}
+
+.problem-space-section h2 {
+    margin-top: 0; /* Remove top margin */
+    text-align: left;
+}
+
+.problem-space-section p {
+    margin-bottom: 10px; /* Add space between paragraphs */
+}
+.project-goals-section {
+    text-align: left; /* Align the section content to the left */
+    margin-left: 10px; /* Add margin to create space between sections */
+    flex: 1;
+    padding: 20px;
+    margin-right: 10px; /* Add margin to create space between sections */
+}
+
+.project-goals-section h2 {
+    margin-top: 0;
+    text-align: left; /* Align the heading to the left */
+}
+
+.project-goals-section .goal {
+    margin-bottom: 20px;
+    text-align: left; /* Align the goal content to the left */
+}
+
+.project-goals-section .goal h3 {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.project-goals-section .goal p {
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+.interviews-section {
+    text-align: left; /* Align the section content to the left */
+    margin-left: 10px; /* Add margin to create space between sections */
+    flex: 1;
+    padding: 20px;
+    margin-right: 10px; /* Add margin to create space between sections */
+}
+
+.interviews-section h2 {
+    margin-top: 0;
+    text-align: left; /* Align the heading to the left */
+}
+
+
+.interviews-section ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.interviews-section ul li {
+    margin-bottom: 10px;
+}
+
+.avatars-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.avatar {
+    margin: 0 10px;
+    flex: 1;
+    max-width: 250px;
+}
+
+
+.avatar img {
+    width: 100px; /* Set a specific width */
+    height: 100px; /* Set a specific height */
+    border-radius: 50%; /* Ensure a circular shape */
+}
+
+
+.avatar p {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.user-personas {
+    text-align: left;
+}
+
+.user-personas h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.user-personas p {
+    margin-bottom: 20px;
+}
+
+.user-persona-container {
+    display: flex;
+    justify-content: center;
+}
+
+.user-persona {
+    margin-right: 20px;
+}
+
+.user-persona img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.user-persona .description {
+    text-align: left;
+}
+
+.user-persona .description h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.user-persona .description p {
+    margin-bottom: 5px;
+}
+
+.jobs-to-be-done {
+    text-align: left;
+}
+
+.jobs-to-be-done h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.jobs-to-be-done p {
+    margin-bottom: 20px;
+}
+
+.job-descriptions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-description {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.job-description h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.job-description ul {
+    padding-left: 20px;
+}
+
+.job-description ul li {
+    margin-bottom: 5px;
+}
+
+.emotional-social-jobs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.emotional-social-jobs .job-description {
+    flex: 1;
+    margin: 0 10px;
+    max-width: 45%;
+}
+
+.emotional-social-jobs h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.emotional-social-jobs ul {
+    padding-left: 20px;
+}
+
+.emotional-social-jobs ul li {
+    margin-bottom: 5px;
+}
+
+.customer-journey {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.customer-journey h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left; /* Align title to the left */
+}
+
+.customer-journey p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left; /* Align description to the left */
+}
+
+.journey-map {
+    display: flex;
+    justify-content: center;
+}
+
+.journey-map img {
+    max-width: 60%;
+    height: auto;
+}
+
+/* Paper Wireframes Section Styles */
+.paper-wireframes {
+    text-align: left; /* Align text to the left */
+    padding: 20px;
+}
+
+.paper-wireframes .screens-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.paper-wireframes .screen {
+    flex: 0 0 20%; /* Adjust the width as needed */
+}
+
+.paper-wireframes .screen-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.paper-wireframes .screen-img {
+    width: 100%; /* Adjust image width as needed */
+    display: block; /* Ensure images fill the container */
+    margin-bottom: 10px; /* Add some space below the images */
+}
+
+
+.homepage-mockup {
+    margin-top: 50px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.circles-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.mockup-info {
+    display: flex;
+    align-items: flex-start;
+}
+
+.info-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mockup-img {
+    width: 60%; /* Adjust width as needed */
+    max-width: 600px; /* Limit maximum width */
+    margin-right: 20px;
+}
+
+.info-description {
+    margin-bottom: 10px; /* Add space between list items */
+}
+
+.info-description:last-child {
+    margin-bottom: 0; /* Remove margin from the last item to avoid extra space */
+}
+
+.important-mockups {
+    margin-top: 40px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.mockup-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.mockup {
+    text-align: center;
+    width: 20%;
+}
+
+.mockup img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
