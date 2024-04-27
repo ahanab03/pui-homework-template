@@ -8,7 +8,7 @@ body {
     font-size: 20px;
     color: white;
     text-decoration: none;
-    margin: 0 20px; /* Add spacing between tabs */
+    margin: 0 20px; 
 }
 
 .work {
@@ -51,7 +51,7 @@ body {
 
 .social-icons {
     display: flex;
-    align-items: center; /* Center items vertically */
+    align-items: center; 
     padding-right: 20px;
     margin-right: 20px;
 }
@@ -60,14 +60,14 @@ body {
 .email-icon {
     width: 30px;
     height: auto;
-    margin-left: 8px; /* Adjust margin to create space between icons */
+    margin-left: 8px; 
 }
 
 .email-icon {
     width: 35px;
 }
 
-/* Styles for the loading container */
+/* Loading Notification */
 .loading-container {
     position: absolute;
     top: 40%;
@@ -77,52 +77,50 @@ body {
     z-index: 999;
 }
 
-/* Styles for the waiting icon */
 .waiting-icon {
-    width: 10%; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Add space between the icon and the text */
+    width: 10%; 
+    height: auto; 
+    margin-bottom: 20px; 
 }
 
-/* Styles for the in-progress message */
 .in-progress {
     font-family: 'Istok Web', sans-serif;
     font-size: 20px;
     color: white;
 }
 
-
+/* Footer */
 .footer {
-    position: absolute; /* Position the footer */
-    bottom: 0; /* Stick it to the bottom */
-    width: 100%; /* Make it full width */
-    color: white; /* Text color */
-    padding: 20px; /* Padding around content */
-    box-sizing: border-box; /* Include padding in width calculation */
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+    color: white;
+    padding: 20px; 
+    box-sizing: border-box; 
 }
 
 .footer-title {
-    font-family: 'Istok Web', sans-serif; /* Use Istok Web font */
-    font-size: 40px; /* Font size */
-    font-weight: bold; /* Bold text */
+    font-family: 'Istok Web', sans-serif; 
+    font-size: 40px; 
+    font-weight: bold; 
 }
 
 .footer-description {
-    font-family: 'Istok Web', sans-serif; /* Use Istok Web font */
-    font-size: 20px; /* Font size */
-    margin-top: 10px; /* Margin between title and description */
+    font-family: 'Istok Web', sans-serif; 
+    font-size: 20px; 
+    margin-top: 10px; 
 }
 
 .contact-info {
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center-align items vertically */
-    margin-top: 20px; /* Margin between description and contact info */
+    display: flex; 
+    align-items: center; 
+    margin-top: 20px; 
 }
 
 .phone-number {
-    font-family: 'Istok Web', sans-serif; /* Use Istok Web font */
-    font-size: 20px; /* Font size */
-    margin-left: 10px; /* Margin between phone icon and number */
+    font-family: 'Istok Web', sans-serif; 
+    font-size: 20px;
+    margin-left: 10px; 
 }
 
 .phone-icon{
