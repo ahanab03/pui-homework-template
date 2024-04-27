@@ -1,0 +1,397 @@
+body {
+    background-color: #1E1E1E;
+}
+
+.tab {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.work {
+    color: #93ABF6;
+    text-decoration: underline;
+}
+
+.tab:hover {
+    text-decoration: underline;
+}
+
+.bold-blue {
+    font-weight: bold;
+    color: #93ABF6;
+}
+
+.additional-info,
+.browse {
+    font-size: 20px;
+    font-family: 'Istok Web', sans-serif;
+    color: white;
+}
+
+.header {
+    background-color: #333333;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    padding-left: 20px;
+}
+
+.navigation {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.linkedin-icon,
+.email-icon {
+    width: 30px;
+    height: auto;
+    margin-left: 8px;
+}
+
+.email-icon {
+    width: 35px;
+}
+
+/* Banner */
+.rectangle {
+    background-color: #2B2B2B;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    height: 400px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 20px;
+}
+
+.left-content {
+    flex: 1;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.right-content {
+    flex: 2;
+    padding-left: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-image {
+    width: 200%;
+    height: auto;
+}
+
+.project-title {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.primary-button {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1E1E1E;
+    background-color: #93ABF6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.primary-button:hover {
+    background-color: #7f9cf5;
+}
+
+
+/* Role, team, time, etc. roles */
+.icons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon img {
+    width: 30px;
+    filter: invert(100%);
+}
+
+.icon-description {
+    font-weight: bold;
+    font-family:'Istok Web', sans-serif;
+    color: white;
+}
+
+.icon-details {
+    margin-top: 5px;
+    font-weight: bold;
+    font-family:'Istok Web', sans-serif;
+    color: white;
+}
+
+.horizontal-line {
+    border-top: 1px solid white;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+/* Consistent Stylings */
+h2{
+    color: white;
+    font-size: 40px;
+    font-family: 'Istok Web', sans-serif;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.description{
+    color:white;
+    font-size: 20px;
+    font-family: 'Istok Web', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+/* Interviewing */
+.interviews-container {
+    margin-top: 20px;
+}
+
+.interview-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.interview-list li {
+    font-size: 20px; 
+    color: white; 
+    margin-top: 5px;
+    margin-left: 100px;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.groups-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left:100px;
+    margin-right: 100px;
+}
+
+.group {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+/* Customer Journey Map */
+.customer-journey-map {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.customer-journey-map img {
+    width: 100%;
+}
+
+/*Lo-fi prototypes */
+.screen-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.screen {
+    flex: 1;
+    max-width: calc(50% - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lofi-description {
+    margin-bottom: 10px;
+}
+
+.screen img {
+    width: 40%;
+    display: block;
+}
+
+
+/* Homepage Mockups */
+.mockup-container {
+    display: flex;
+}
+
+.homepage-mockup {
+    width: 25%;
+    margin-left: 100px;
+}
+
+
+/* All important mockups */
+.mockup-description {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.mockup-description p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.important-mockups-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mockup-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mockup-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(33.33% - 10px);
+}
+
+.mockup-text {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mockup-image {
+    width: 40%;
+    ; 
+    object-fit: cover;
+}
+
+/* Final prototype access */
+.final-button-container {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.final-button {
+    color: white;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1E1E1E;
+    background-color: #93ABF6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.final-button:hover{
+    background-color: #7f9cf5;
+}
+
+
+/* Footer */
+.footer {
+    color: white;
+    padding: 20px;
+}
+
+.footer-title {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.footer-description {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.phone-number {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.phone-icon{
+    width: 2%;
+}
+
+
+/* Define the fade-in animation */
+.fade-in {
+    opacity: 0.02;
+    transition: opacity 0.3s ease-in;
+}
+.fade-in.visible {
+    opacity: 1;
+}

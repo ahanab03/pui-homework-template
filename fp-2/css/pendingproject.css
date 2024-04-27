@@ -1,0 +1,130 @@
+/* Common styles */
+body {
+    background-color: #1E1E1E;
+}
+
+.tab {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px; /* Add spacing between tabs */
+}
+
+.work {
+    color: #93ABF6;
+    text-decoration: underline;
+}
+
+.tab:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+.header {
+    background-color: #333333;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    padding-left: 20px;
+}
+
+.navigation {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.linkedin-icon,
+.email-icon {
+    width: 30px;
+    height: auto;
+    margin-left: 8px; /* Adjust margin to create space between icons */
+}
+
+.email-icon {
+    width: 35px;
+}
+
+/* Styles for the loading container */
+.loading-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 999;
+}
+
+/* Styles for the waiting icon */
+.waiting-icon {
+    width: 10%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Add space between the icon and the text */
+}
+
+/* Styles for the in-progress message */
+.in-progress {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+.footer {
+    position: absolute; /* Position the footer */
+    bottom: 0; /* Stick it to the bottom */
+    width: 100%; /* Make it full width */
+    color: white; /* Text color */
+    padding: 20px; /* Padding around content */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.footer-title {
+    font-family: 'Istok Web', sans-serif; /* Use Istok Web font */
+    font-size: 40px; /* Font size */
+    font-weight: bold; /* Bold text */
+}
+
+.footer-description {
+    font-family: 'Istok Web', sans-serif; /* Use Istok Web font */
+    font-size: 20px; /* Font size */
+    margin-top: 10px; /* Margin between title and description */
+}
+
+.contact-info {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center-align items vertically */
+    margin-top: 20px; /* Margin between description and contact info */
+}
+
+.phone-number {
+    font-family: 'Istok Web', sans-serif; /* Use Istok Web font */
+    font-size: 20px; /* Font size */
+    margin-left: 10px; /* Margin between phone icon and number */
+}
+
+.phone-icon{
+    width: 2%;
+}

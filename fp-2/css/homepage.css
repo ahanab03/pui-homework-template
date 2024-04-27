@@ -1,0 +1,325 @@
+/* Mobile-specific styles */
+@media (max-width: 600px) {
+    .title-container .title-text {
+        font-size: 28px;
+        padding: 100px 0 0 0;
+    }
+
+    .additional-info{
+        display:none;
+    }
+    
+    .browse {
+        font-size: a;
+    }
+
+    .rectangle {
+        flex-direction: column;
+        height: auto;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .left-content,
+    .right-content {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .left-image {
+        width: 80%;
+    }
+
+    .right-content {
+        margin-top: 20px;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .description,
+    .pill-container,
+    .pill {
+        display: none;
+    }
+
+    .footer-title {
+        font-size: 24px;
+    }
+
+    .phone-icon{
+        display:none;
+    }
+
+    .animation-profile {
+        position: relative;
+        width: 150%;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .header-info {
+        display: none;
+    }
+}
+
+/* Common styles */
+body {
+    background-color: #1E1E1E;
+}
+
+.tab {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.work {
+    color: #93ABF6;
+    text-decoration: underline;
+}
+
+.tab:hover {
+    text-decoration: underline;
+}
+
+.bold-blue {
+    font-weight: bold;
+    color: #93ABF6;
+}
+
+.additional-info,
+.browse {
+    font-size: 20px;
+    font-family: 'Istok Web', sans-serif;
+    color: white;
+}
+
+/* Header styles */
+.header {
+    background-color: #333333;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+/* Mobile menu */
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #333333;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+.mobile-menu.show {
+    display: block;
+}
+
+.mobile-menu a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Header */
+.logo {
+    width: 40px;
+    height: auto;
+    padding-left: 20px;
+}
+
+.navigation {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.linkedin-icon,
+.email-icon {
+    width: 30px;
+    height: auto;
+    margin-left: 8px;
+}
+
+.email-icon {
+    width: 35px;
+}
+
+/* Intro */
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 20px;
+}
+
+.title-text {
+    font-size: 60px;
+    font-family: 'Istok Web', sans-serif;
+    text-align: left;
+    color: white;
+    line-height: 1.3;
+    padding: 0 10px;
+}
+
+.additional-info {
+    font-size: 20px;
+    font-family: 'Istok Web', sans-serif;
+    color: white;
+    text-align: left;
+    margin: -110px 0 0 30px;
+    padding-bottom: 100px;
+}
+
+.animation-profile img {
+    width: 100%;
+    margin-left:20px;
+    margin-bottom: -100px;
+}
+
+.browse {
+    font-size: 20px;
+    font-family: 'Istok Web', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Each project debrief */
+
+.rectangle {
+    background-color: #2B2B2B;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 300px;
+    margin: 10px;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+}
+
+.left-image {
+    width: 450px;
+    height: auto;
+}
+
+.right-content {
+    flex-grow: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pill-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    margin-left: -10px;
+}
+
+.title {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pill {
+    color: #93ABF6;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    border: 2px solid #93ABF6;
+}
+
+.description {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+}
+
+/* Footer */
+
+.footer {
+    color: white;
+    padding: 20px;
+}
+
+.footer-title {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.footer-description {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.phone-number {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.phone-icon {
+    width: 2%;
+}
+
+/* Define the fade-in animation */
+.fade-in {
+    opacity: 0.02;
+    transition: opacity 0.3s ease-in;
+}
+.fade-in.visible {
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
